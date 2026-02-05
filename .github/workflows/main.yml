@@ -1,0 +1,9 @@
+steps:
+  - name: Run a specific Docker command
+    uses: addnab/docker-run-action@v3
+    with:
+      image: myimage:latest
+      options: -v ${{ github.workspace }}:/work # Mount the workspace
+      run: |
+        echo "Running a custom script"
+        /work/my-script.sh
