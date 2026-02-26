@@ -1,0 +1,1 @@
+{\n  "name": "a-stock-trading-monitoring-system",\n  "version": "1.0.0",\n  "main": "main.js",\n  "scripts": {\n    "start": "electron ."\n  },\n  "dependencies": {\n    "electron": ">=latest"\n  }\n}
