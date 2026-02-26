@@ -1,0 +1,5 @@
+akshare
+pandas
+sqlite3
+requests
+plyer
