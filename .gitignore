@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Python cache
+__pycache__/
+
+# Environment variables
+.env
+
+# Database files
+*.db
+
+# Distribution folder
+/dist/
+
+# Build artifacts
+*.o
+*.out
+*.log
+*~
+*.bak
+*.tmp
+*.zip
+*.tar.gz
+*.tgz
+*.swp
+*.DS_Store
+*.class
