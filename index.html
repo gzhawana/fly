@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A股 Trading Monitoring System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Market Overview</a></li>
+            <li><a href="#">Trading</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>A股 Trading Monitoring System</h1>
+        <div class="data-tables">
+            <h2>Data Tables</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Stock Code</th>
+                        <th>Stock Name</th>
+                        <th>Price</th>
+                        <th>Change</th>
+                        <th>Volume</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>600000</td>
+                        <td>浦发银行</td>
+                        <td>10.00</td>
+                        <td>0.00</td>
+                        <td>1,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>600004</td>
+                        <td>白酒股份</td>
+                        <td>20.00</td>
+                        <td>-0.50</td>
+                        <td>500,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <button id="openModal">Open Modal</button>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Modal Title</h2>
+                <p>Some content inside the modal.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
